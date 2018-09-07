@@ -1,0 +1,135 @@
+@font-face : {
+  font-family: HelveticaNeueMedium;
+  src: "../fonts/HelveticaNeueCyr-Medium.ttf"; }
+
+@font-face : {
+  font-family: HelveticaNeueBlack;
+  src: "../fonts/HelveticaNeueCyr-Black.ttf"; }
+
+@font-face : {
+  font-family: HelveticaNeueBold;
+  src: "../fonts/HelveticaNeueCyr-Bold.ttf"; }
+
+@font-face : {
+  font-family: HelveticaNeueCondensedBold;
+  src: "../fonts/HelveticaNeueCyr-CondensedBold.ttf"; }
+
+@font-face : {
+  font-family: HelveticaNeueLight;
+  src: "../fonts/HelveticaNeueCyr-Light.ttf"; }
+
+@font-face : {
+  font-family: HelveticaNeueRoman;
+  src: "../fonts/HelveticaNeueCyr-Roman.ttf"; }
+
+.page {
+  max-width: 1203px;
+  margin: 0 auto; }
+
+.header {
+  display: flex;
+  justify-content: space-between; }
+
+.header__img {
+  align-self: flex-start; }
+
+.header__links {
+  display: flex;
+  align-items: center;
+  width: 60%; }
+  .header__links ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none; }
+    .header__links ul li {
+      display: inline-block; }
+      .header__links ul li a {
+        text-decoration: none;
+        color: #555555;
+        font-family: HelveticaNeueBold;
+        font-size: 18px; }
+        .header__links ul li a::after {
+          content: url("img/polygon.svg"); }
+
+.header__contacts {
+  text-align: right;
+  vertical-align: center; }
+
+.header__phone-num {
+  font-family: HelveticaNeueCondensedBold;
+  font-size: 20px;
+  color: #BFDF14; }
+
+.header__email {
+  font-family: HelveticaNeueCyr;
+  font-size: 18px;
+  color: #3477DB; }
+
+.banner {
+  background-image: url("img/arenda.png");
+  height: 675px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.banner__text-background {
+  background: rgba(205, 221, 0, 0.8);
+  margin: 100px 0;
+  width: 100%;
+  padding: 100px 0; }
+
+.banner__text {
+  text-align: center; }
+  .banner__text h1 {
+    font-family: HelveticaNeueCyr;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .banner__text p {
+    font-family: Helvetica Neue;
+    line-height: 36px;
+    font-size: 28px;
+    color: #FFFFFF; }
+
+.text__attraction {
+  text-align: center;
+  font-family: HelveticaNeueCyr;
+  line-height: 53px;
+  font-size: 30px;
+  color: #555555;
+  padding-top: 102px; }
+
+.text__service {
+  text-align: center;
+  font-family: HelveticaNeueCyr;
+  line-height: 51px;
+  font-size: 35px;
+  color: #CDDD00; }
+
+.service_box {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.06), 0px 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 2px; }
+  .service_box h1 {
+    font-family: HelveticaNeueCyr;
+    line-height: 28px;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FF8530; }
+  .service_box p {
+    font-family: HelveticaNeueCyr;
+    line-height: 23px;
+    font-size: 14px;
+    text-align: center;
+    color: #555555; }
+  .service_box h2 {
+    font-family: HelveticaNeueCyr;
+    line-height: 28px;
+    font-size: 22px;
+    text-align: center;
+    color: #FF8530; }
